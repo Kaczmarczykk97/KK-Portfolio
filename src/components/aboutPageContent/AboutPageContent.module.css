@@ -1,0 +1,36 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100vw;
+}
+
+.aboutWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  width: 60%;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  background-color: var(--blue);
+}
+
+@media (max-width: 1100px) {
+  .aboutWrapper {
+    width: 70%;
+  }
+}
+
+@media (max-width: 950px) {
+  .aboutWrapper {
+    width: 75%;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutWrapper {
+    width: 85%;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  }
+}

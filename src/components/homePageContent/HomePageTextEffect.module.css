@@ -1,0 +1,66 @@
+.textEffect {
+  position: relative;
+  width: max-content;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  color: transparent;
+  -webkit-text-stroke: 0.5px var(--blue);
+}
+
+.textEffect::before {
+  content: "Frontend_Developer";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  color: var(--blue);
+  border-right: 2px solid var(--blue);
+  -webkit-text-stroke: 0 var(--blue);
+  animation: animate 6s linear infinite 2s;
+}
+
+@keyframes animate {
+  0% {
+    width: 0%;
+  }
+  90% {
+    width: 100%;
+    text-shadow: 0 0 10px var(--blue-light);
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .textEffect {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .textEffect {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .textEffect {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .textEffect {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .textEffect {
+    font-size: 1.6rem;
+  }
+}

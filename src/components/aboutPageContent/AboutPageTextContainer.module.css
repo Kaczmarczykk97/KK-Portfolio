@@ -1,0 +1,26 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.textContainer h2 {
+  font-size: 2.5rem;
+  color: var(--color-gray-100);
+  text-shadow: 0 0 15px var(--blue-dark);
+}
+
+.textContainer p {
+  width: 95%;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 0.5rem;
+  width: 95%;
+}

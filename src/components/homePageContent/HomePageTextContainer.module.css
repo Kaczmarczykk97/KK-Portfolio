@@ -1,0 +1,103 @@
+.homePageTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 80%;
+  padding-top: 5rem;
+}
+
+.heading-h1 {
+  font-size: 2.95rem;
+  line-height: 1.2;
+}
+
+.heading-h2 {
+  font-size: 2rem;
+}
+
+.text {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .heading-h1 {
+    font-size: 2.65rem;
+    line-height: 1.1;
+  }
+
+  .heading-h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .heading-h1 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+  }
+
+  .heading-h2 {
+    font-size: 1.6rem;
+  }
+
+  .text {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .heading-h1 {
+    font-size: 2rem;
+  }
+
+  .heading-h2 {
+    font-size: 1.4rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .heading-h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .homePageTextContainer {
+    padding-top: 8rem;
+  }
+
+  .heading-h1 {
+    font-size: 2.2rem;
+  }
+
+  .heading-h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .homePageTextContainer {
+    padding-top: 7rem;
+  }
+
+  .heading-h1 {
+    font-size: 1.8rem;
+  }
+
+  .heading-h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .homePageTextContainer {
+    padding-top: 6rem;
+  }
+}

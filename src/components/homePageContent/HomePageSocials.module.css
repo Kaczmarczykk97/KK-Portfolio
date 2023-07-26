@@ -1,0 +1,29 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.2rem;
+  width: 3.2rem;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  box-shadow: 0 0 4px var(--blue-light);
+  transition: all 0.3s;
+}
+
+a.socialMedia {
+  font-size: 2rem;
+  color: var(--color-gray-100);
+}
+
+.socialMedia:hover {
+  background-color: var(--blue);
+  box-shadow: 0 0 10px var(--blue-light);
+  transform: scale(1.05) translateY(-5px);
+}

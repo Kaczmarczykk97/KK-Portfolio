@@ -1,0 +1,111 @@
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.homePageBtn {
+  display: inline-block;
+  position: relative;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  overflow: hidden;
+  background-color: transparent;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.homePageBtn a {
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-gray-100);
+  letter-spacing: 2px;
+}
+
+.homePageBtn:hover {
+  color: var(--blue-dark);
+  background-color: var(--blue);
+  transform: scale(1.1);
+  box-shadow: 0 0 5px var(--blue), 0 0 25px var(--blue), 0 0 50px var(--blue);
+}
+
+.homePageBtn span {
+  position: absolute;
+  display: block;
+}
+
+.homePageBtn span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--blue));
+  animation: firstSpanAnimation 1s linear infinite;
+}
+
+@keyframes firstSpanAnimation {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.homePageBtn span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, var(--blue));
+  animation: secondSpanAnimation 1s linear infinite 0.25s;
+}
+
+@keyframes secondSpanAnimation {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.homePageBtn span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, var(--blue));
+  animation: thirdSpanAnimation 1s linear infinite 0.5s;
+}
+
+@keyframes thirdSpanAnimation {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.homePageBtn span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, var(--blue));
+  animation: fourthSpanAnimation 1s linear infinite 0.75s;
+}
+
+@keyframes fourthSpanAnimation {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}

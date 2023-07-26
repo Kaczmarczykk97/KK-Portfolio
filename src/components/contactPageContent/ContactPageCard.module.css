@@ -1,0 +1,58 @@
+.contactCard {
+  padding: 2rem 1rem;
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 12rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px var(--blue-light);
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.contactCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px var(--color-gray-100);
+}
+
+.contactCard ion-icon {
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.1s linear;
+}
+
+.contactCard p {
+  color: var(--color-gray-100);
+  font-size: 1rem;
+  font-weight: 500;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.contactCard:hover p {
+  max-height: 2rem;
+  opacity: 1;
+}
+
+.contactCard .contactCardIcon {
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--blue-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid var(--color-gray-100);
+  transition: all 0.4s ease-in-out;
+}
+
+.contactCard:hover .contactCardIcon {
+  background: none;
+  color: var(--blue-dark);
+  transform: scale(1.2);
+  border: none;
+}

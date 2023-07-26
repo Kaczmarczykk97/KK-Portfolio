@@ -1,0 +1,31 @@
+.homePageWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  justify-content: center;
+  gap: 2rem;
+  min-height: 100vh;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+@media (max-width: 1000px) {
+  .homePageWrapper {
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .homePageWrapper {
+    grid-template-columns: 70vw;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .homePageWrapper {
+    grid-template-columns: 80vw;
+    gap: 0.5rem;
+  }
+}

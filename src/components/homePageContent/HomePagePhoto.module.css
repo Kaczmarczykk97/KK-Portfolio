@@ -1,0 +1,85 @@
+.photoContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.photoWrapper {
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  padding-top: 1rem;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  transition: all 0.3s;
+}
+
+.photoWrapper:hover {
+  transform: scale(1.05);
+}
+
+.backgroundPhoto {
+  position: absolute;
+  width: 33vw;
+  margin-inline: auto;
+  background-color: var(--blue);
+  inset: auto 0 0;
+  aspect-ratio: 1/1;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.photoContainer .portrait {
+  position: relative;
+  width: 33vw;
+  transform: translateY(2rem);
+  transition: all 0.3s;
+  z-index: 2;
+}
+
+.photoWrapper:hover .portrait {
+  transform: translateY(1rem);
+}
+
+@media (max-width: 1100px) {
+  .backgroundPhoto {
+    width: 40vw;
+  }
+
+  .photoContainer .portrait {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .backgroundPhoto {
+    width: 45vw;
+  }
+
+  .photoContainer .portrait {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .backgroundPhoto {
+    width: 55vw;
+  }
+
+  .photoContainer .portrait {
+    width: 55vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .photoWrapper {
+    padding-top: 0;
+  }
+  .backgroundPhoto {
+    width: 65vw;
+  }
+
+  .photoContainer .portrait {
+    width: 65vw;
+  }
+}
