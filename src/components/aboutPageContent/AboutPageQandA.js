@@ -20,6 +20,7 @@ function AboutPageQandA(props) {
       {isOpen && (
         <div>
           <p>{props.answear}</p>
+          {props.secAnswear ? <p>{props.secAnswear}</p> : ""}
         </div>
       )}
     </div>

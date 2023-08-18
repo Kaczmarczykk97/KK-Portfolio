@@ -7,8 +7,10 @@ function AboutPageTextContainer(props) {
     <div className={classes.textContainer}>
       <h2>About Me</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut
-        nostrum dolorem excepturi repellendus laboriosam cum sunt magnam!
+        Jestem początkującym frontend developerem, który opanował sztukę CSS i
+        JavaScript. Obecnie skupiam się na rozwijaniu umiejętności w React, aby
+        tworzyć jeszcze bardziej dynamiczne i interaktywne interfejsy. Zapraszam
+        do zapoznania się z moim portfolio.
       </p>
       <div className={classes.cardsContainer}>
         {props.cards.map((card) => {

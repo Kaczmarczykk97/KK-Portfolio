@@ -15,8 +15,8 @@ function HomePageTextContainer() {
       <h1 className={classes["heading-h1"]}>Kamil Kaczmarczyk</h1>
       <HomePageTextEffect />
       <p className={classes.text}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dicta
-        ipsam qui nesciunt ex eaque facere veniam doloribus placeat.
+        "Nie martw się jeśli nie działa to dobrze - gdyby wszystko działało, nie
+        miałbyś pracy"" - Prawo Mosher'a
       </p>
       <HomePageSocials />
       <HomePageBtn />

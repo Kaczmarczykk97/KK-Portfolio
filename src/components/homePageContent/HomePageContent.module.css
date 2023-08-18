@@ -5,12 +5,11 @@
   gap: 2rem;
   min-height: 100vh;
   align-items: center;
-  padding: 2rem 3rem;
+  padding: 0 2rem;
 }
 
 @media (max-width: 1000px) {
   .homePageWrapper {
-    padding: 2rem 1.5rem;
     gap: 1.5rem;
   }
 }
