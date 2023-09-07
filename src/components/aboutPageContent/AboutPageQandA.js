@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import classes from "./AboutPageQandA.module.css";
+import classes from "./about-page-styles/AboutPageQandA.module.css";
 
 function AboutPageQandA(props) {
   const [isOpen, setIsOpen] = useState(false);

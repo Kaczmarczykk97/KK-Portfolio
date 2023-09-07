@@ -1,4 +1,4 @@
-import classes from "./ContactPageCard.module.css";
+import classes from "./contact-page-styles/ContactPageCard.module.css";
 
 function ContactPageCard({ card }) {
   return (

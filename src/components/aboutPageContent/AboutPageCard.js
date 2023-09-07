@@ -1,4 +1,5 @@
-import classes from "./AboutPageCard.module.css";
+
+import classes from "./about-page-styles/AboutPageCard.module.css"
 
 function AboutPageCard(props) {
   return (

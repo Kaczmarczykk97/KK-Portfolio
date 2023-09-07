@@ -1,4 +1,4 @@
-import classes from "./PortfolioPageWebpage.module.css";
+import classes from "./portfolio-page-styles/PortfolioPageWebpage.module.css";
 
 function PortfolioPageWebpage({ webpage }) {
   return (

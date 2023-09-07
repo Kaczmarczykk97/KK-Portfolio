@@ -1,6 +1,6 @@
 import ContactPageCard from "./ContactPageCard";
 
-import classes from "./ContactPageContent.module.css";
+import classes from "./contact-page-styles/ContactPageContent.module.css";
 
 const cards = [
   { id: 1, icon: "mail", text: "kamil.kaczmarczykk@gmail.com" },

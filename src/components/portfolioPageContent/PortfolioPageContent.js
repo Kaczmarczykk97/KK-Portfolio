@@ -1,6 +1,6 @@
 import PortfolioPageWebpage from "./PortfolioPageWebpage";
 
-import classes from "./PortfolioPageContent.module.css";
+import classes from "./portfolio-page-styles/PortfolioPageContent.module.css";
 import webpage1 from "../img/portfolioPages/webpage_1.PNG";
 import webpage2 from "../img/portfolioPages/webpage_2.PNG";
 import webpage3 from "../img/portfolioPages/webpage_3.PNG";

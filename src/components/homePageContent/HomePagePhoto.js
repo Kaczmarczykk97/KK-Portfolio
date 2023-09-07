@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import classes from "./HomePagePhoto.module.css";
+import classes from "./home-page-styles/HomePagePhoto.module.css";
 import homePhoto from "../img/homePage.png";
 
 function HomePagePhoto() {

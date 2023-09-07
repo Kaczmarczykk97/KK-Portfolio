@@ -1,6 +1,6 @@
 import AboutPageCard from "./AboutPageCard";
 
-import classes from "./AboutPageTextContainer.module.css";
+import classes from "./about-page-styles/AboutPageTextContainer.module.css";
 
 function AboutPageTextContainer(props) {
   return (

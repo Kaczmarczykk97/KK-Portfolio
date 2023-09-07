@@ -2,7 +2,7 @@ import HomePageTextEffect from "./HomePageTextEffect";
 import HomePageSocials from "./HomePageSocials";
 import HomePageBtn from "./HomePageBtn";
 
-import classes from "./HomePageTextContainer.module.css";
+import classes from "./home-page-styles/HomePageTextContainer.module.css";
 
 function HomePageTextContainer() {
   return (

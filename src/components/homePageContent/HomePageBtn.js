@@ -1,4 +1,4 @@
-import classes from "./HomePageBtn.module.css";
+import classes from "./home-page-styles/HomePageBtn.module.css";
 import CV from "../img/Kamil_Kaczmarczyk_CV.pdf";
 
 function HomePageBtn() {

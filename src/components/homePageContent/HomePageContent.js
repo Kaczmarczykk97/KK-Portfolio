@@ -1,4 +1,4 @@
-import classes from "./HomePageContent.module.css";
+import classes from "./home-page-styles/HomePageContent.module.css";
 
 import HomePagePhoto from "./HomePagePhoto";
 import HomePageTextContainer from "./HomePageTextContainer";

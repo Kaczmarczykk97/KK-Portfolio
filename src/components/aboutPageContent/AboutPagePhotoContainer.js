@@ -1,4 +1,4 @@
-import classes from "./AboutPagePhotoContainer.module.css";
+import classes from "./about-page-styles/AboutPagePhotoContainer.module.css";
 
 function AboutPagePhotoContainer(props) {
   return (

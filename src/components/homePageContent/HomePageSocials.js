@@ -1,4 +1,4 @@
-import classes from "./HomePageSocials.module.css";
+import classes from "./home-page-styles/HomePageSocials.module.css";
 
 function HomePageSocials() {
   return (

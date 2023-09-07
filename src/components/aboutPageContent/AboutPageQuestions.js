@@ -1,6 +1,6 @@
 import AboutPageQandA from "./AboutPageQandA";
 
-import classes from "./AboutPageQuestions.module.css";
+import classes from "./about-page-styles/AboutPageQuestions.module.css";
 
 const questionAndAswears = [
   {

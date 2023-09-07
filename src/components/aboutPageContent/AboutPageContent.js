@@ -2,7 +2,7 @@ import AboutPageQuestions from "./AboutPageQuestions";
 import AboutPagePhotoContainer from "./AboutPagePhotoContainer";
 import AboutPageTextContainer from "./AboutPageTextContainer";
 
-import classes from "./AboutPageContent.module.css";
+import classes from "./about-page-styles/AboutPageContent.module.css";
 
 import me from "../../components/img/homePage.png";
 import HTML_Logo from "../../components/img/HTML5_Logo.png";
