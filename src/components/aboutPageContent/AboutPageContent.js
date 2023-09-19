@@ -5,6 +5,7 @@ import AboutPageTextContainer from "./AboutPageTextContainer";
 import classes from "./about-page-styles/AboutPageContent.module.css";
 
 import me from "../../components/img/homePage.png";
+
 import HTML_Logo from "../../components/img/HTML5_Logo.png";
 import CSS_Logo from "../../components/img/CSS3_Logo.png";
 import JS_Logo from "../../components/img/JavaScript_Logo.png";
@@ -13,6 +14,7 @@ import REACT_Logo from "../../components/img/React_Logo.png";
 import ROUTER_Logo from "../../components/img/Router_Logo.png";
 import REDUX_Logo from "../../components/img/Redux_Logo.png";
 import TS_Logo from "../../components/img/TypeScript_Logo.png";
+import WP_Logo from "../../components/img/WP_Logo.png";
 
 const cards = [
   {
@@ -32,7 +34,8 @@ const cards = [
       { id: 1, title: "REACT", img: REACT_Logo },
       { id: 2, title: "ROUTER", img: ROUTER_Logo },
       { id: 3, title: "REDUX", img: REDUX_Logo },
-      { id: 4, title: "TS", img: TS_Logo },
+      { id: 4, title: "TypeScript", img: TS_Logo },
+      { id: 5, title: "WordPress", img: WP_Logo },
     ],
   },
 ];
